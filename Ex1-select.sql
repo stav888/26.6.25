@@ -78,3 +78,8 @@ limit 3 offset 2
 update students
 set grade = 100
 where name = 'dana';
+
+--14
+update students
+set class = 'GRADUATED'
+where BIRTHYEAR < 2010;
