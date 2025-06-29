@@ -63,3 +63,18 @@ limit 3
 select name, BIRTHYEAR
 from students
 order by BIRTHYEAR asc
+
+--11
+select name
+from students
+limit 3
+
+--12
+select *
+from students
+limit 3 offset 2
+
+--13
+update students
+set grade = 100
+where name = 'dana';
