@@ -83,3 +83,7 @@ where name = 'dana';
 update students
 set class = 'GRADUATED'
 where BIRTHYEAR < 2010;
+
+--15
+delete from students
+where id = 8;
