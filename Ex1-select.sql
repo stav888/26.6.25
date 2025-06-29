@@ -96,3 +96,7 @@ group by class;
 --17
 SELECT NAME, BIRTHYEAR, strftime('%Y', 'now') - BIRTHYEAR AS AGE
 FROM STUDENTS;
+
+--18
+SELECT NAME, min(grade)
+FROM STUDENTS;
