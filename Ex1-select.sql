@@ -52,3 +52,14 @@ where CLASS = ('H1');
 select name
 from students
 where name LIKE '%a%';
+
+--9
+select name, grade
+from students
+order by grade desc
+limit 3
+
+--10
+select name, BIRTHYEAR
+from students
+order by BIRTHYEAR asc
