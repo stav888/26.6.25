@@ -40,3 +40,18 @@ from students
 --4
 select min(BIRTHYEAR)
 from students
+
+--5
+select name, grade
+from students
+where grade > 80
+
+--6
+select name , BIRTHYEAR
+from students
+where BIRTHYEAR > 2005
+
+--7
+select name, class
+from students
+where CLASS = ('H1')
