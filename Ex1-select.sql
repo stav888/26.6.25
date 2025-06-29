@@ -87,3 +87,12 @@ where BIRTHYEAR < 2010;
 --15
 delete from students
 where id = 8;
+
+--16
+SELECT count(*), class
+FROM STUDENTS
+group by class;
+
+--17
+SELECT NAME, BIRTHYEAR, strftime('%Y', 'now') - BIRTHYEAR AS AGE
+FROM STUDENTS;
