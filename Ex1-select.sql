@@ -19,31 +19,36 @@ INSERT INTO STUDENTS (ID, NAME, GRADE, `CLASS`, BIRTHYEAR) VALUES (10, 'Isaac', 
 
 --1
 select *
-from students
+from students;
 
 --2
 select name , grade
-from students
+from students;
 
 --3
 select avg(grade)
-from students
+from students;
 
 --4
 select min(BIRTHYEAR)
-from students
+from students;
 
 --5
 select name, grade
 from students
-where grade > 80
+where grade > 80;
 
 --6
 select name , BIRTHYEAR
 from students
-where BIRTHYEAR > 2005
+where BIRTHYEAR > 2005;
 
 --7
 select name, class
 from students
-where CLASS = ('H1')
+where CLASS = ('H1');
+
+--8
+select name
+from students
+where name LIKE '%a%';
