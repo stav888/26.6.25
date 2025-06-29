@@ -1,3 +1,11 @@
+/*
+✍️ תרגיל 1: שאילתות SELECT
+1 הצג את כל התלמידים בטבלה
+2 הצג רק את השם והציון של כל תלמיד
+3 הצג את ממוצע הציונים
+4 מצא את שנת הלידה הכי מוקדמת
+*/
+
 CREATE TABLE STUDENTS (
   ID INTEGER PRIMARY KEY,
   NAME TEXT NOT NULL,
@@ -17,5 +25,14 @@ INSERT INTO STUDENTS (ID, NAME, GRADE, `CLASS`, BIRTHYEAR) VALUES (8, 'Tom', 55,
 INSERT INTO STUDENTS (ID, NAME, GRADE, `CLASS`, BIRTHYEAR) VALUES (9, 'Dana', 89, 'W2', 2010);
 INSERT INTO STUDENTS (ID, NAME, GRADE, `CLASS`, BIRTHYEAR) VALUES (10, 'Isaac', 78, 'Z1', 2006);
 
+--1
 select *
+from students
+
+--2
+select name , grade
+from students
+
+--3
+select avg(grade)
 from students
