@@ -1,11 +1,3 @@
-/*
-✍️ תרגיל 1: שאילתות SELECT
-1 הצג את כל התלמידים בטבלה
-2 הצג רק את השם והציון של כל תלמיד
-3 הצג את ממוצע הציונים
-4 מצא את שנת הלידה הכי מוקדמת
-*/
-
 CREATE TABLE STUDENTS (
   ID INTEGER PRIMARY KEY,
   NAME TEXT NOT NULL,
