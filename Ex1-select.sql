@@ -36,3 +36,7 @@ from students
 --3
 select avg(grade)
 from students
+
+--4
+select min(BIRTHYEAR)
+from students
