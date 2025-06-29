@@ -57,22 +57,22 @@ where name LIKE '%a%';
 select name, grade
 from students
 order by grade desc
-limit 3
+limit 3;
 
 --10
 select name, BIRTHYEAR
 from students
-order by BIRTHYEAR asc
+order by BIRTHYEAR asc;
 
 --11
 select name
 from students
-limit 3
+limit 3;
 
 --12
 select *
 from students
-limit 3 offset 2
+limit 3 offset 2;
 
 --13
 update students
